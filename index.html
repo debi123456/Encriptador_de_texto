@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador de Texto Debora</title>
+    
+    
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+        <img class="logo" src="./imagen/Logo.png" alt="foto logo">
+    </a>
+    </header>
+    
+    <main>
+     <section class="encriptador__container">
+            <textarea name="texto__encriptador" class="texto__encriptador" id="texto"
+            placeholder="Ingrese el texto aquí"></textarea>
+       
+                
+        <div class="terminos">
+            <img class="imagen__v" src="./imagen/Vector.png" alt="foto Vector">
+            <p class="msj__aviso">Solo en letras miniscula y sin acentos.</p>
+        </div>
+
+       <div class="button__container">
+        
+        <button type="button" class="btn__encriptar">Encriptar</button>
+        <button type="button" class="btn__desencriptar">Desencriptar</button>
+    </div>
+</section>
+    <section id="msj__encriptado">
+        <div class="msj__encriptado__container">
+        <img class="imagen" src="./imagen/Muñeco.png" alt="foto Muñeco">
+        <h2 class="titulo__mensaje">Ningún mensaje fue encontrado</h2>
+        <p class="texto">Ingrese el texto que desea encriptar o desencriptar</p>
+    </div>
+        <textarea type="msj" class="msj__verificar" readonly></textarea>
+        <button type="entregar" class="btn__copiar">Copiar</button>
+  
+</section>
+
+</main>
+    
+<footer>
+    <div class="p__container">
+    <p> &copy; Encriptador de Texto - Desarrollado por Debora Navas 2024</p>
+</div>
+</footer>
+
+</body>
+
+<script src="archivo.js"></script>
+</html>
