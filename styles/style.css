@@ -351,7 +351,7 @@ background: var(--Gray);
             height: 186px;
             width: 327px;
             padding: 10% 20%;  
-           
+            margin: 50px;
         }
         
         .p__container{ 
